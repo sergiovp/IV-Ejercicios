@@ -10,8 +10,8 @@ Los ejercicios propuestos para este hito son los siguientes:
 
 En mi caso, voy a utilizar Travis como sistema de integración continua. Para dejar constancia de mi registro en la plataforma, adjunto las siguientes capturas de pantalla:
 
-![captura_travis1](https://github.com/sergiovp/IV-Ejercicios/tree/main/Sesiones/images/travis1.png)
-![captura_travis2](https://github.com/sergiovp/IV-Ejercicios/tree/main/Sesiones/images/travis2.png)
+![captura_travis1](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/travis1.png)
+![captura_travis2](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/travis2.png)
 
 ### 2. Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
 
