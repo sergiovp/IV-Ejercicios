@@ -15,6 +15,10 @@ En mi caso, voy a utilizar Travis como sistema de integración continua. Para de
 
 ### 2. Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
 
+De manera muy cómoda Travis permite especificar los repositorios a los que les quieres aplicar la integración continua, en mi caso, seleccionaré únicamente el repositorio de la asignatura.
+
+![captura_travis3](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/travis3.png)
+
 ### 3. Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
 
 ### 4. Configurar integración continua para nuestra aplicación usando Travis o algún otro sitio.
