@@ -21,4 +21,11 @@ De manera muy cómoda Travis permite especificar los repositorios a los que les 
 
 ### 3. Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
 
+Para este caso, al usar Travis, deberemos crear un fichero `.travis.yml` en nuestro repositorio.
+
+~~~
+vela@vela-PC:~/IV-OrganizeAndGo$ ls -l .travis.yml 
+-rw-rw-r-- 1 vela vela 84 nov  3 10:39 .travis.yml
+~~~
+
 ### 4. Configurar integración continua para nuestra aplicación usando Travis o algún otro sitio.
