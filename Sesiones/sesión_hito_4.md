@@ -29,3 +29,21 @@ vela@vela-PC:~/IV-OrganizeAndGo$ ls -l .travis.yml
 ~~~
 
 ### 4. Configurar integración continua para nuestra aplicación usando Travis o algún otro sitio.
+
+En este caso y a modo de prueba, se contigurará de forma sencilla el fichero:
+~~~
+language: node_js
+node_js:
+  - "14"
+before_install:
+  - npm install
+script: npm test
+~~~
+
+Obteniendo los siguientes resultados:
+
+![captura_travis4](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/travis4.png)
+![captura_travis5](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/travis5.png)
+
+Y como podemos observar, los tests han sido ejecutados correctamente:
+![captura_travis6](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/travis6.png)
