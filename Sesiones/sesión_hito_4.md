@@ -35,7 +35,7 @@ En este caso y a modo de prueba, se contigurará de forma sencilla el fichero:
 language: node_js
 node_js:
   - "14"
-before_install:
+install:
   - npm install
 script: npm test
 ~~~
