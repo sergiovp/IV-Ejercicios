@@ -62,4 +62,28 @@ Tras lo cual, realizamos el commit y lo podemos comprobar con la url que vercel 
 ## Ejercicio 3.
 ### Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
 
+Antes de nada, nos damos de alta en *Netlify*.
 
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/netlify1.png)
+
+Instalamos la *CLI* con `npm install netlify-cli -g`.
+
+Al igual que en el caso de Vercel, he creado un repositorio de pruebas. [Testing-Netlify](https://github.com/sergiovp/Testing-Netlify).
+
+Tenemos los siguientes ficheros de pruebas:
+
++ [hello.js](https://github.com/sergiovp/Testing-Netlify/blob/main/funciones/hello.js). Típico hola mundo.
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/netlify2.png)
+
++ [sort_vector.js](https://github.com/sergiovp/Testing-Netlify/blob/main/funciones/sort_vector.js). Pequeña función que muestra un vector sin ordenar y después lo ordena.
+
+Para este caso trabajaremos en local:
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/netlify3.png)
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/netlify4.png)
+
+Tras comprobar que funciona, hacemos commit y accedemos mediante la url que nos ha proporcionado *Netlify*.
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/netlify5.png)
