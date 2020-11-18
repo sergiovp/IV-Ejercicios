@@ -41,20 +41,25 @@ Podemos instalar *Vercel* en todos los repositorios de nuestro GitHub, en este c
 
 Las pruebas que haremos serán básicas. Podemos verlas en el repositorio [Testing-Vercel](https://github.com/sergiovp/Testing-Vercel):
 
-[hello_test.ts](https://github.com/sergiovp/Testing-Vercel/blob/main/api/hello_test.ts) simplemente imprimirá por pantalla un hola mundo.
++ [hello_test.ts](https://github.com/sergiovp/Testing-Vercel/blob/main/api/hello_test.ts) simplemente imprimirá por pantalla un hola mundo.
 
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/vercel7.png)
 
-[date_test.ts](https://github.com/sergiovp/Testing-Vercel/blob/main/api/date_test.ts) imprimirá la fecha actual.
++ [date_test.ts](https://github.com/sergiovp/Testing-Vercel/blob/main/api/date_test.ts) imprimirá la fecha actual.
 
 En este caso, he trabajo en local como podemos comprobar:
 
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/vercel5.png)
 
-Comprobamos el correcto funcionamiento con la url que nos genera:
+Comprobamos el correcto funcionamiento en local:
 
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/vercel6.png)
 
 Tras lo cual, realizamos el commit y lo podemos comprobar con la url que vercel nos asignó para el repositorio:
 
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/vercel8.png)
+
+## Ejercicio 3.
+### Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
+
+
