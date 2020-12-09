@@ -9,7 +9,5 @@ const client = new Etcd3();
     const clave = await client.get('clave').string();
     
     console.log('La clave introducida es: ', clave);
-  
-    await client.delete().all();
 
 })();
