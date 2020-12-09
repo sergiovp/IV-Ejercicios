@@ -6,6 +6,10 @@ En este caso, trabajaremos con interfaces *REST*.
 
 A la hora de desarrollar un microservicio, podemos usar *microframeworks* teniendo en cuenta aspectos como *configuración*, *rutas* y *middleware*.
 
+Un microservicio se organiza alrededor del concepto de ruta. Las rutas describen objetos, no acciones. Las acciones se van a expresar mediante HTTP.
+
+Las rutas llaman a funciones. Pero entre una ruta y una función a la que se llama puede se puede insertar un *middleware*, que no son más que llamadas o *hooks* que se producen antes o después de la activación de la ruta. Estos *middleware* se pueden usar para autentificación o registro de logs, por ejemplo.
+
 ## Ejercicio 1.
 ### Instalar etcd3, averiguar qué bibliotecas funcionan bien con el lenguaje que estemos escribiendo el proyecto (u otro lenguaje), y hacer un pequeño ejemplo de almacenamiento y recuperación de una clave; hacer el almacenamiento desde la línea de órdenes (con etcdctl) y la recuperación desde el mini-programa que hagáis.
 
@@ -45,4 +49,18 @@ Pero la gracia del ejercicio es sacar dicha clave haciendo uso del pequeño prog
 Como vemos, hemos recuperado la clave con nuestro programa de ejemplo.
 
 ## Ejercicio 2.
-### 
+### Realizar una aplicación básica que use express para devolver alguna estructura de datos del modelo que se viene usando en el curso. 
+
+Para instalar express, podemos seguir el guión de teoría o [este tutorial](https://expressjs.com/es/starter/installing.html).
+
+Hay montones de ejemplos básicos para implementar una pequeña aplicación con express. En este caso, me he basado en [este turorial](https://expressjs.com/es/starter/hello-world.html) para realizar el ejercicio.
+
+Como se nos pude que devolvamos alguna estructura de datos de nuestro proyecto, he copiado el archivo [empleado.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/empleado.js) del repositorio de mi proyecto en el directorio sobre el que estamos trabajando para realizar estos ejercicios [src](https://github.com/sergiovp/IV-Ejercicios/tree/main/Sesiones/ficheros_hito_6/src).
+
+He creado el fichero [express_app.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/express_app.js) para correr la aplicación. En este fichero defino un objeto de mi clase Empleado y lo devuelvo.
+
+Para ejecutarlo, podemos ejecutar el comando `npm run express`, obteniendo el siguiente resultado:
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express1.png)
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express2.png)
