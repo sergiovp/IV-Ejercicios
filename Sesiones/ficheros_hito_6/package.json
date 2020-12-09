@@ -4,6 +4,7 @@
   "description": "Pequeño ejemplo para trabajar con etcd",
   "main": "index.js",
   "scripts": {
+    "ejercicio1": "node src/test_etcd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergio Vela",
