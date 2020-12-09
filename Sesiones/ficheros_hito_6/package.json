@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "ejercicio1": "node src/test_etcd.js",
+    "express": "node src/express_app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergio Vela",
