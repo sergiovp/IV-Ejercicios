@@ -1,0 +1,14 @@
+{
+  "name": "ficheros_hito_6",
+  "version": "1.0.0",
+  "description": "Pequeño ejemplo para trabajar con etcd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Vela",
+  "license": "ISC",
+  "dependencies": {
+    "etcd3": "^1.1.0"
+  }
+}
