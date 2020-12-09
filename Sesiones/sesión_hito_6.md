@@ -9,6 +9,8 @@ A la hora de desarrollar un microservicio, podemos usar *microframeworks* tenien
 ## Ejercicio 1.
 ### Instalar etcd3, averiguar qué bibliotecas funcionan bien con el lenguaje que estemos escribiendo el proyecto (u otro lenguaje), y hacer un pequeño ejemplo de almacenamiento y recuperación de una clave; hacer el almacenamiento desde la línea de órdenes (con etcdctl) y la recuperación desde el mini-programa que hagáis.
 
+En este ejercicio, haremos un pequeño ejemplo en el que probaremos la *configuración externa*. *etcd* simplemente es un servidor de configuración distribuida. Deberemos de establecer la configuración antes de lanzarlo (en nuestro caso la configuración será establecer una clave) y después la deberemos leer (en nuestro caso, desde el fichero [test_etcd.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/test_etcd.js).
+
 Para instalar etcd, en mi caso, al usar una distribución basada en Debian, tan solo debo ejecutar `apt install etcd`.
 Para comprobar que la instalación ha ido bien, podemos comprobar la versión:
 
