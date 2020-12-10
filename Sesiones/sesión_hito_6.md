@@ -55,7 +55,7 @@ Para instalar express, podemos seguir el guión de teoría o [este tutorial](htt
 
 Hay montones de ejemplos básicos para implementar una pequeña aplicación con express. En este caso, me he basado en [este turorial](https://expressjs.com/es/starter/hello-world.html) para realizar el ejercicio.
 
-Como se nos pude que devolvamos alguna estructura de datos de nuestro proyecto, he copiado el archivo [empleado.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/empleado.js) del repositorio de mi proyecto en el directorio sobre el que estamos trabajando para realizar estos ejercicios [src](https://github.com/sergiovp/IV-Ejercicios/tree/main/Sesiones/ficheros_hito_6/src).
+Como se nos propone que devolvamos alguna estructura de datos de nuestro proyecto, he copiado el archivo [empleado.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/empleado.js) del repositorio de mi proyecto en el directorio sobre el que estamos trabajando para realizar estos ejercicios [src](https://github.com/sergiovp/IV-Ejercicios/tree/main/Sesiones/ficheros_hito_6/src).
 
 He creado el fichero [express_app.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/express_app.js) para correr la aplicación. En este fichero defino un objeto de mi clase Empleado y lo devuelvo.
 
