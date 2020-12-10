@@ -7,7 +7,7 @@
     "ejercicio1": "node src/test_etcd.js",
     "express": "node src/express_app.js",
     "express_var": "node src/express_variables.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/test/test_app.js"
   },
   "author": "Sergio Vela",
   "license": "GPL-3.0",
