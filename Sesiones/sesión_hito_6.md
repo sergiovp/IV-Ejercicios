@@ -68,7 +68,7 @@ Para ejecutarlo, podemos ejecutar el comando `npm run express`, obteniendo el si
 ## Ejercicio 3.
 ### Programar un microservicio en express (o el lenguaje y marco elegido) que incluya variables como en el caso anterior.
 
-En este caso, seguiremos la 'filosofía' del ejercicio anterior. Tendremos la página 'index' (/) en la cual mostraremos los datos de un empleado creado previamente (como en el anterior ejercicio). Para este caso, incorporaremos una nueva página (/empleado) la cual deberá recibir 4 parámetros (id, nombre, apellido y email).
+En este caso, seguiremos la 'filosofía' del ejercicio anterior. Tendremos la página 'index' (/) en la cual mostraremos los datos de un empleado creado previamente (como en el anterior ejercicio). Para este caso, incorporaremos una nueva URL (/empleado) la cual deberá recibir 4 parámetros (id, nombre, apellido y email).
 En caso de no introducir los 4 parámetros, mostraremos un mensaje de error. Si los 4 parámetros han sido introducidos, mostraremos dichos datos como veremos a continuación.
 
 El fichero en cuestión es [express_variables.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/express_variables.js). 
@@ -82,3 +82,16 @@ Si no introducimos parámetros:
 Si introducimos los parámetros correctos:
 
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express_ejer3_2.png)
+
+## Ejercicio 4.
+### Crear pruebas para las diferentes rutas de la aplicación.
+
+Como para nuestro proyecto estamos utilizando Mocha + Chai para los tests, usaremos dichos módulos en este caso también para realizar los tests.
+
+El fichero en cuestión en el que encontramos los tests es [test_app.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/test/test_app.js).
+
+Como resultado, podemos ver la siguiente captura:
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/tests1.png)
+
+Para correr los tests ejecutamos `npm test`.
