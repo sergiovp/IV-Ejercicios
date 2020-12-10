@@ -45,4 +45,4 @@ class Empleado {
     }
 }
 
-export { Empleado };
+module.exports = Empleado;
