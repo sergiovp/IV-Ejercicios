@@ -1,5 +1,5 @@
-import { Empleado } from './empleado.js';
-import express from 'express';
+const Empleado = require('./empleado.js');
+const express = require('express');
 const app = express();
 var port = process.env.PORT || 8080;
 
