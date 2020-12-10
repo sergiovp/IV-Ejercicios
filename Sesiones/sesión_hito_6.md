@@ -64,3 +64,21 @@ Para ejecutarlo, podemos ejecutar el comando `npm run express`, obteniendo el si
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express1.png)
 
 ![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express2.png)
+
+## Ejercicio 3.
+### Programar un microservicio en express (o el lenguaje y marco elegido) que incluya variables como en el caso anterior.
+
+En este caso, seguiremos la 'filosofía' del ejercicio anterior. Tendremos la página 'index' (/) en la cual mostraremos los datos de un empleado creado previamente (como en el anterior ejercicio). Para este caso, incorporaremos una nueva página (/empleado) la cual deberá recibir 4 parámetros (id, nombre, apellido y email).
+En caso de no introducir los 4 parámetros, mostraremos un mensaje de error. Si los 4 parámetros han sido introducidos, mostraremos dichos datos como veremos a continuación.
+
+El fichero en cuestión es [express_variables.js](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/ficheros_hito_6/src/express_variables.js). 
+
+Para ejecutarlo, ejecutamos `npm run express_var`.
+
+Si no introducimos parámetros:
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express_ejer3_1.png)
+
+Si introducimos los parámetros correctos:
+
+![captura](https://github.com/sergiovp/IV-Ejercicios/blob/main/Sesiones/images/express_ejer3_2.png)
