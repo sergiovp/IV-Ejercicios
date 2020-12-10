@@ -1,16 +1,16 @@
-import { Empleado } from './empleado.js';
-import express from 'express';
+const Empleado = require('./empleado.js');
+const express = require('express');
 const app = express();
-var port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
 // Ejemplo de empleado que se mostrará en la página 'index'
 let empleado = new Empleado(0, "Sergio", "Vela", "sergiovp96@gmail.com");
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
     res.send(empleado)
 })
 
-app.get('/empleado', function(req, res) {
+app.get('/empleado', function (req, res) {
     let id = req.query.id;
     let nombre = req.query.nombre;
     let apellido = req.query.apellido;
@@ -27,3 +27,5 @@ app.get('/empleado', function(req, res) {
 app.listen(port, () => {
     console.log(`Ejemplo app Express corriendo en http://localhost:${port}`);
 })
+
+module.exports = app;
